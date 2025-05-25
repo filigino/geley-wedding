@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/geley-wedding/static/css/main.552d2a59.css",
+    "main.js": "/geley-wedding/static/js/main.eb213531.js",
+    "static/js/453.ddb23dde.chunk.js": "/geley-wedding/static/js/453.ddb23dde.chunk.js",
+    "static/media/landscape-alt.jpg": "/geley-wedding/static/media/landscape-alt.38352eac3b1b1036f024.jpg",
+    "static/media/portrait-alt.jpg": "/geley-wedding/static/media/portrait-alt.3651f9eb973ecdd49ebc.jpg",
+    "static/media/landscape.jpg": "/geley-wedding/static/media/landscape.f4c897a52d9d11817a27.jpg",
+    "static/media/portrait.jpg": "/geley-wedding/static/media/portrait.f52f2ca36d803ec680c8.jpg",
+    "index.html": "/geley-wedding/index.html",
+    "main.552d2a59.css.map": "/geley-wedding/static/css/main.552d2a59.css.map",
+    "main.eb213531.js.map": "/geley-wedding/static/js/main.eb213531.js.map",
+    "453.ddb23dde.chunk.js.map": "/geley-wedding/static/js/453.ddb23dde.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.552d2a59.css",
+    "static/js/main.eb213531.js"
+  ]
+}
