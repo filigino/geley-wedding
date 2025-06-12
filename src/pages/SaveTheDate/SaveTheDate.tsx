@@ -2,7 +2,7 @@ import React from 'react'
 
 import { useRandomComponent } from 'hooks/useRandomComponent'
 import { Dancing } from 'pages/SaveTheDate/Variants/Dancing/Dancing'
-import { Standing } from 'pages/SaveTheDate/Variants/StandingWithFlowers'
+import { Standing } from 'pages/SaveTheDate/Variants/Standing'
 
 const VARIANTS = [Dancing, Standing]
 
