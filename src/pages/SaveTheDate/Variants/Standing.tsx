@@ -35,8 +35,8 @@ export const Standing = () => {
     <Image
       src={isMobile ? MOBILE_IMAGES[imageIndex] : DESKTOP_IMAGES[imageIndex]}
       sx={{
-        width: '100vw',
-        height: '100vh',
+        width: '100dvw',
+        height: '100dvh',
         objectFit: 'contain',
       }}
     />
