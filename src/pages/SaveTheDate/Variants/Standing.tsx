@@ -32,13 +32,27 @@ export const Standing = () => {
   }, [])
 
   return (
-    <Image
-      src={isMobile ? MOBILE_IMAGES[imageIndex] : DESKTOP_IMAGES[imageIndex]}
-      sx={{
-        width: '100dvw',
-        height: '100dvh',
-        objectFit: 'contain',
-      }}
-    />
+    <>
+      <Image
+        src={isMobile ? MOBILE_IMAGES[0] : DESKTOP_IMAGES[0]}
+        sx={{
+          width: '100dvw',
+          height: '100dvh',
+          objectFit: 'contain',
+          display: imageIndex === 0 ? 'block' : 'none',
+          backgroundColor: '#f8f8f8',
+        }}
+      />
+      <Image
+        src={isMobile ? MOBILE_IMAGES[1] : DESKTOP_IMAGES[1]}
+        sx={{
+          width: '100dvw',
+          height: '100dvh',
+          objectFit: 'contain',
+          display: imageIndex === 1 ? 'block' : 'none',
+          backgroundColor: '#f8f8f8',
+        }}
+      />
+    </>
   )
 }
