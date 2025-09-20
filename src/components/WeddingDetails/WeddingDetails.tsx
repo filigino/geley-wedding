@@ -15,7 +15,7 @@ import { PADDING_X } from 'constants/spacing'
 import { TRANSFORM_X } from 'constants/transforms'
 
 export const WeddingDetails = () => (
-  <Stack sx={{ textAlign: 'center', gap: '16px' }}>
+  <Stack sx={{ textAlign: 'center', gap: '12px' }}>
     <Typography
       variant="h4"
       sx={{
@@ -37,6 +37,7 @@ export const WeddingDetails = () => (
         py: '12px',
       }}
     >
+      {/* increase horizontal padding */}
       <Typography
         variant="h6"
         sx={{ color: BLACK, fontFamily: ADOBE_HANDWRITING_ERNIE }}

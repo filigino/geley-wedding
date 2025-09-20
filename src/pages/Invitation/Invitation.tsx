@@ -23,10 +23,11 @@ export const Invitation = () => (
       <Rsvp />
       <LogoDivider />
       <WeddingDetails />
+      {/* TODO increase vertical spacing for all logo dividers */}
       <LogoDivider />
       <SpecialThanks />
       <Image src={weddingCrew} sx={{ mt: '20px' }} />
-      <Rsvp />
+      <Rsvp sx={{ mt: '20px' }} />
       <Footer />
     </Stack>
   </Container>

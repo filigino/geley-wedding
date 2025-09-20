@@ -10,10 +10,8 @@ import { BLACK, BLUE } from 'constants/colours'
 import { ADOBE_HANDWRITING_ERNIE } from 'constants/fonts'
 
 export const Footer = () => (
-  <Stack
-    sx={{ backgroundColor: BLUE, gap: '20px', px: '40px', overflow: 'visible' }}
-  >
-    <Image src={seeYouThere} sx={{ width: '67%' }} />
+  <Stack sx={{ backgroundColor: BLUE, gap: '20px', px: '40px', pb: '20px' }}>
+    <Image src={seeYouThere} sx={{ width: '80%' }} />
     <Box alignSelf="flex-end">
       <Typography
         variant="h4"

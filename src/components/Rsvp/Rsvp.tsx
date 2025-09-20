@@ -21,6 +21,7 @@ export const Rsvp = ({ sx }: RsvpProps) => (
       ...sx,
     }}
   >
+    {/* TODO make skinnier */}
     <Typography variant="h5" sx={{ color: MAROON, fontFamily: LINOTYPE_DIDOT }}>
       RSVP
     </Typography>
