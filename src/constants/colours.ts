@@ -1,4 +1,5 @@
-export const BEIGE = '#f7ebe1'
+export const BEIGE = '#f7eae1'
 export const BLACK = '#2d2d2d'
-export const BLUE = '#f2f9ff'
-export const BROWN = '#5a3941'
+export const BLUE = '#f1f9fe'
+export const MAROON = '#5b3841'
+export const PINK = '#ff7ecc'

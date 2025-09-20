@@ -12,6 +12,6 @@ interface FlowerDividerProps {
 export const FlowerDivider = ({ sx }: FlowerDividerProps) => (
   <Image
     src={flowerDivider}
-    sx={{ my: '20px', width: '33%', alignSelf: 'center', ...sx }}
+    sx={{ width: '25%', alignSelf: 'center', ...sx }}
   />
 )
