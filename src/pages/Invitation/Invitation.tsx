@@ -8,6 +8,7 @@ import timeline from 'assets/invitation/timeline.png'
 import { Image } from 'components/Image/Image'
 import { LogoDivider } from 'components/LogoDivider/LogoDivider'
 import { Rsvp } from 'components/Rsvp/Rsvp'
+import { SpecialThanks } from 'components/SpecialThanks/SpecialThanks'
 import { WeddingDetails } from 'components/WeddingDetails/WeddingDetails'
 import { PADDING_X } from 'constants/spacing'
 
@@ -20,6 +21,8 @@ export const Invitation = () => (
       <Rsvp />
       <LogoDivider />
       <WeddingDetails />
+      <LogoDivider />
+      <SpecialThanks />
     </Stack>
   </Container>
 )

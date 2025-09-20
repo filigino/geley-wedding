@@ -76,7 +76,7 @@ export const WeddingDetails = () => (
       fresher and more relaxed start to the day.
     </Typography>
     <Image src={hotelCallout} sx={{ mx: PADDING_X }} />
-    <FlowerDivider />
+    <FlowerDivider sx={{ transform: 'scaleX(-1)' }} />
     <Typography
       variant="h6"
       sx={{ color: PINK, fontFamily: ADOBE_HANDWRITING_ERNIE }}
@@ -94,34 +94,51 @@ export const WeddingDetails = () => (
     <Stack
       sx={{
         backgroundColor: BEIGE,
-        textAlign: 'left',
         mx: PADDING_X,
         px: '12px',
         py: '12px',
       }}
     >
       <Typography
-        variant="h6"
-        sx={{ color: BLACK, fontFamily: ADOBE_HANDWRITING_ERNIE }}
+        variant="body2"
+        sx={{ color: BLACK, fontFamily: LINOTYPE_DIDOT }}
       >
-        Looking for some inspiration?
+        PARKING
       </Typography>
       <Typography sx={{ color: BLACK, fontFamily: LATO, fontSize: '11px' }}>
-        Visit our Pinterest board{' '}
-        <Link
-          href="https://pinterest.com/Lesleyend/gino-lesley-official-wedding-board"
-          target="_blank"
-          underline="none"
-          sx={{
-            color: PINK,
-            fontWeight: 'bold',
-            borderBottom: `1px solid ${PINK}`,
-          }}
-        >
-          here
-        </Link>{' '}
-        to get some outfit ideas and a feel of the wedding vibe.
+        Parking will be available at the Caleruega chapel, Balay Dako and Hotel
+        Casiana should you choose to stay there. If you plan to stay elsewhere,
+        please check with your accommodation for parking.
       </Typography>
     </Stack>
+    <FlowerDivider />
+    <Typography
+      variant="h6"
+      sx={{ color: PINK, fontFamily: ADOBE_HANDWRITING_ERNIE }}
+    >
+      Gifts
+    </Typography>
+    <Typography
+      sx={{ color: BLACK, fontFamily: LATO, fontSize: '11px', mx: '24px' }}
+    >
+      Your love and support mean the world to us, and having you with us on our
+      wedding day is the only gift we need. We kindly ask that you don't feel
+      obligated to bring a present — your presence is truly enough.
+    </Typography>
+    <FlowerDivider sx={{ transform: 'scaleX(-1)' }} />
+    <Typography
+      variant="h6"
+      sx={{ color: PINK, fontFamily: ADOBE_HANDWRITING_ERNIE }}
+    >
+      Plus ones and little ones
+    </Typography>
+    <Typography
+      sx={{ color: BLACK, fontFamily: LATO, fontSize: '11px', mx: '24px' }}
+    >
+      Unfortunately, while we would love to invite more people, including plus
+      ones and children, we’re only able to invite a select a few due to limited
+      spacing. Thank you for understanding, and hope we can still enjoy this
+      celebration together!
+    </Typography>
   </Stack>
 )
