@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router'
 import 'index.css'
 import reportWebVitals from 'reportWebVitals'
 
-import { CivilWedding } from 'pages/CivilWedding/CivilWedding'
+import { Invitation } from 'pages/Invitation/Invitation'
 import { SaveTheDate } from 'pages/SaveTheDate/SaveTheDate'
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
@@ -12,8 +12,8 @@ root.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route index element={<SaveTheDate />} />
-        <Route path="/civil-wedding" element={<CivilWedding />} />
+        <Route index element={<Invitation />} />
+        <Route path="/save-the-date" element={<SaveTheDate />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
