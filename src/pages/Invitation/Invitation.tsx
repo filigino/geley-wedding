@@ -17,13 +17,12 @@ import { PADDING_X } from 'constants/spacing'
 export const Invitation = () => (
   <Container maxWidth="md" disableGutters>
     <Stack>
-      <Image src={hero} sx={{ mt: '48px', mx: PADDING_X }} />
+      <Image src={hero} sx={{ mt: '48px' }} />
       <Rsvp sx={{ mt: '20px' }} />
       <Image src={timeline} sx={{ mt: '20px' }} />
       <Rsvp />
       <LogoDivider />
       <WeddingDetails />
-      {/* TODO increase vertical spacing for all logo dividers */}
       <LogoDivider />
       <SpecialThanks />
       <Image src={weddingCrew} sx={{ mt: '20px' }} />

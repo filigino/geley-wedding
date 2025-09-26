@@ -12,6 +12,6 @@ interface LogoDividerProps {
 export const LogoDivider = ({ sx }: LogoDividerProps) => (
   <Image
     src={logoDivider}
-    sx={{ my: '16px', width: '36%', alignSelf: 'center', ...sx }}
+    sx={{ my: ['32px', '64px'], width: '36%', alignSelf: 'center', ...sx }}
   />
 )

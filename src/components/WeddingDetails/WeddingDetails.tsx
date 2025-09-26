@@ -41,11 +41,11 @@ export const WeddingDetails = () => (
         backgroundColor: BEIGE,
         textAlign: 'left',
         mx: PADDING_X,
-        px: '12px',
-        py: '12px',
+        px: ['20px', '30px'],
+        py: '16px',
+        pb: ['16px', '24px'],
       }}
     >
-      {/* TODO increase horizontal padding */}
       <Typography
         variant="h6"
         sx={{
@@ -128,8 +128,11 @@ export const WeddingDetails = () => (
       sx={{
         backgroundColor: BEIGE,
         mx: PADDING_X,
-        px: '12px',
-        py: '12px',
+        // px: '12px',
+        // py: '16px',
+        px: ['20px', '30px'],
+        py: ['16px', '24px'],
+        // pb: ['16px', '24px'],
       }}
     >
       <Typography

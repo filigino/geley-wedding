@@ -5,7 +5,12 @@ import Stack from '@mui/material/Stack'
 import Typography from '@mui/material/Typography'
 
 import { BLUE, BLACK, MAROON } from 'constants/colours'
-import { FONT_SIZE_CONTENT, LATO, LINOTYPE_DIDOT } from 'constants/fonts'
+import {
+  FONT_SIZE_CONTENT,
+  FONT_SIZE_H5,
+  LATO,
+  LINOTYPE_DIDOT,
+} from 'constants/fonts'
 
 interface RsvpProps {
   sx?: SxProps
@@ -17,7 +22,7 @@ export const Rsvp = ({ sx }: RsvpProps) => (
       backgroundColor: BLUE,
       textAlign: 'center',
       px: '20px',
-      py: '12px',
+      py: ['12px', '32px'],
       ...sx,
     }}
   >
@@ -27,7 +32,7 @@ export const Rsvp = ({ sx }: RsvpProps) => (
         color: MAROON,
         fontFamily: LINOTYPE_DIDOT,
         transform: 'scaleX(.9)',
-        fontSize: ['24px', '48px'],
+        fontSize: FONT_SIZE_H5,
       }}
     >
       RSVP
