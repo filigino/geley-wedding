@@ -5,7 +5,7 @@ import Stack from '@mui/material/Stack'
 import Typography from '@mui/material/Typography'
 
 import { BLUE, BLACK, MAROON } from 'constants/colours'
-import { LATO, LINOTYPE_DIDOT } from 'constants/fonts'
+import { FONT_SIZE_CONTENT, LATO, LINOTYPE_DIDOT } from 'constants/fonts'
 
 interface RsvpProps {
   sx?: SxProps
@@ -21,11 +21,20 @@ export const Rsvp = ({ sx }: RsvpProps) => (
       ...sx,
     }}
   >
-    {/* TODO make skinnier */}
-    <Typography variant="h5" sx={{ color: MAROON, fontFamily: LINOTYPE_DIDOT }}>
+    <Typography
+      variant="h5"
+      sx={{
+        color: MAROON,
+        fontFamily: LINOTYPE_DIDOT,
+        transform: 'scaleX(.9)',
+        fontSize: ['24px', '48px'],
+      }}
+    >
       RSVP
     </Typography>
-    <Typography sx={{ color: BLACK, fontFamily: LATO, fontSize: '11px' }}>
+    <Typography
+      sx={{ color: BLACK, fontFamily: LATO, fontSize: FONT_SIZE_CONTENT }}
+    >
       Kindly email <b>ginoandlesleywedding@gmail.com</b> to confirm your
       attendance.
       <br />
