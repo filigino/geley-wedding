@@ -15,6 +15,7 @@ export const Image = ({ src, sx }: ImageProps) => (
     sx={{
       display: 'block',
       height: 'auto',
+      objectFit: 'contain',
       ...sx,
     }}
   />
