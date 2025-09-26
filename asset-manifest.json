@@ -1,22 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.552d2a59.css",
-    "main.js": "/static/js/main.11ce6990.js",
-    "static/js/453.ddb23dde.chunk.js": "/static/js/453.ddb23dde.chunk.js",
+    "main.css": "/static/css/main.e6c13ad2.css",
+    "main.js": "/static/js/main.4e75707d.js",
+    "static/js/386.a33646d8.chunk.js": "/static/js/386.a33646d8.chunk.js",
     "static/media/saveTheDateStandingMobile1.png": "/static/media/saveTheDateStandingMobile1.f693991320409ca86168.png",
     "static/media/saveTheDateStandingMobile2.png": "/static/media/saveTheDateStandingMobile2.672ed176a51ec68bd26c.png",
     "static/media/saveTheDateStandingDesktop2.png": "/static/media/saveTheDateStandingDesktop2.dda95a1a4110eb6993fd.png",
     "static/media/saveTheDateStandingDesktop1.png": "/static/media/saveTheDateStandingDesktop1.11da6a6019aec8c16664.png",
-    "static/media/portrait-alt.jpg": "/static/media/portrait-alt.3651f9eb973ecdd49ebc.jpg",
-    "static/media/landscape.jpg": "/static/media/landscape.f4c897a52d9d11817a27.jpg",
-    "static/media/portrait.jpg": "/static/media/portrait.f52f2ca36d803ec680c8.jpg",
+    "static/media/cover.png": "/static/media/cover.5c12d88ef5cccfde1911.png",
+    "static/media/seeYouThere.png": "/static/media/seeYouThere.781ac3fee88966b17582.png",
+    "static/media/hotelCallout.png": "/static/media/hotelCallout.6080d09e41a748501775.png",
+    "static/media/timeline.png": "/static/media/timeline.673473f7b4b9b8a00102.png",
+    "static/media/hero.png": "/static/media/hero.fec600eb305a8007cf43.png",
+    "static/media/weddingCrew.png": "/static/media/weddingCrew.e0ca1de05faaf22265e1.png",
+    "static/media/theme.png": "/static/media/theme.0982d350d63d1e5b454f.png",
+    "static/media/logoDivider.png": "/static/media/logoDivider.83dd3a9098c6df305350.png",
+    "static/media/flower.png": "/static/media/flower.986c5fbfb544b0b92108.png",
+    "static/media/flowerDivider.png": "/static/media/flowerDivider.1f6ae360f6e2cc39fdbb.png",
     "index.html": "/index.html",
-    "main.552d2a59.css.map": "/static/css/main.552d2a59.css.map",
-    "main.11ce6990.js.map": "/static/js/main.11ce6990.js.map",
-    "453.ddb23dde.chunk.js.map": "/static/js/453.ddb23dde.chunk.js.map"
+    "main.e6c13ad2.css.map": "/static/css/main.e6c13ad2.css.map",
+    "main.4e75707d.js.map": "/static/js/main.4e75707d.js.map",
+    "386.a33646d8.chunk.js.map": "/static/js/386.a33646d8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.552d2a59.css",
-    "static/js/main.11ce6990.js"
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.4e75707d.js"
   ]
 }
