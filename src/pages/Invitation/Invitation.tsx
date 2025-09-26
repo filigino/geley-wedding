@@ -12,7 +12,6 @@ import { LogoDivider } from 'components/LogoDivider/LogoDivider'
 import { Rsvp } from 'components/Rsvp/Rsvp'
 import { SpecialThanks } from 'components/SpecialThanks/SpecialThanks'
 import { WeddingDetails } from 'components/WeddingDetails/WeddingDetails'
-import { PADDING_X } from 'constants/spacing'
 
 export const Invitation = () => (
   <Container maxWidth="md" disableGutters>
