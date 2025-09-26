@@ -9,5 +9,13 @@ export interface ImageProps {
 }
 
 export const Image = ({ src, sx }: ImageProps) => (
-  <Box component="img" src={src} sx={{ display: 'block', ...sx }} />
+  <Box
+    component="img"
+    src={src}
+    sx={{
+      display: 'block',
+      height: 'auto',
+      ...sx,
+    }}
+  />
 )
